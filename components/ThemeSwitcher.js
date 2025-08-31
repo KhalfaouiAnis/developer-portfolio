@@ -16,9 +16,9 @@ export default function ThemeSwitcher() {
         className={` w-7 h-7 flex items-center justify-center bg-violet-700 rounded-full transition-all duration-200 ${theme === "dark" ? "ml-5" : "" }`}
       >
         {theme === "light" ? (
-          <FaCloudMoon className="text-white" size={14} />
+          <FaCloudMoon className="text-white scale-up" size={14} />
         ) : (
-          <LuSunMoon className="text-white" size={14} />
+          <LuSunMoon className="text-white scale-up" size={14} />
         )}
       </span>
     </div>

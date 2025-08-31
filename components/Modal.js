@@ -44,7 +44,7 @@ export default function Modal({ open, data, toggle }) {
                 target="_blank"
                 className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
               >
-                <FaGithub size={18} className="text-black dark:text-white" />
+                <FaGithub size={18} className="text-black dark:text-white scale-up" />
                 <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                   source code
                 </span>
@@ -54,7 +54,7 @@ export default function Modal({ open, data, toggle }) {
                 target="_blank"
                 className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
               >
-                <TfiWorld size={18} className="text-black dark:text-white" />
+                <TfiWorld size={18} className="text-black dark:text-white scale-up" />
                 <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                   demo
                 </span>

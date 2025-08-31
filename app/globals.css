@@ -12,8 +12,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+.scale-up {
+  @apply hover:scale-125 transition-all duration-300;
+}
+
+.scale-top {
+  @apply hover:scale-200 transition-all duration-300;
+}
+
 button {
-cursor: pointer;
+  cursor: pointer;
 }
 
 .my-masonry-grid {

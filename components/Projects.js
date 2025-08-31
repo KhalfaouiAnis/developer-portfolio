@@ -29,7 +29,7 @@ export default function Projects() {
                 src={project.image}
                 fill
                 alt="project image"
-                className="w-full h-full absolute inset-0"
+                className="w-full h-full absolute inset-0 scale-top"
               />
             </div>
             <div className="flex-1">
@@ -42,7 +42,7 @@ export default function Projects() {
                     toggleModal();
                     setModalData(project);
                   }}
-                  className="text-[20px] text-zinc-900 dark:text-white cursor-pointer"
+                  className="text-[20px] text-zinc-900 dark:text-white cursor-pointer scale-up"
                 />
               </div>
               <p className="text-base font-semibold text-zinc-500 dark:text-zinc-400 mt-2">

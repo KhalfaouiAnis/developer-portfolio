@@ -13,7 +13,7 @@ export default function Testimonials() {
 
   return (
     <SectionWrapper>
-      <Heading>Satesfied Clients</Heading>
+      <Heading>Satisfied Clients</Heading>
       <h1 className="text-xl md:text-3xl font-black capitalize mt-5">
         What{" "}
         <strong className="text-violet-600 dark:text-zinc-400">
@@ -31,7 +31,7 @@ export default function Testimonials() {
               onClick={() => setCount(count + 2)}
               className="h-[45px] bg-violet-600 text-white rounded-lg font-medium text-base capitalize px-4"
             >
-              <FaArrowCircleDown title="Show more..." />
+              <FaArrowCircleDown className="scale-up" title="Show more..." />
             </button>
           </div>
         )}
@@ -56,7 +56,7 @@ export default function Testimonials() {
                     fill
                     alt="Reviewer image"
                     src={rating.image}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover scale-up"
                   />
                 </div>
                 <div className="flex-1 ">
