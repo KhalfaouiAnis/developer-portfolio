@@ -29,7 +29,7 @@ export default function Modal({ open, data, toggle }) {
               />
             </div>
           </div>
-          <div className="flex-1 mt-6 lg:mt-0">
+          <div className="flex-1 mt-2 lg:mt-4">
             <h2 className="text-xl md:text-2xl text-zinc-700 dark:text-zinc-400 font-bold">
               {data.title}
             </h2>
@@ -44,21 +44,29 @@ export default function Modal({ open, data, toggle }) {
                 target="_blank"
                 className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
               >
-                <FaGithub size={18} className="text-black dark:text-white scale-up" />
+                <FaGithub
+                  size={18}
+                  className="text-black dark:text-white scale-up"
+                />
                 <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
                   source code
                 </span>
               </Link>
-              <Link
-                href={data.demo}
-                target="_blank"
-                className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
-              >
-                <TfiWorld size={18} className="text-black dark:text-white scale-up" />
-                <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
-                  demo
-                </span>
-              </Link>
+              {data.demo && (
+                <Link
+                  href={data.demo}
+                  target="_blank"
+                  className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
+                >
+                  <TfiWorld
+                    size={18}
+                    className="text-black dark:text-white scale-up"
+                  />
+                  <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
+                    demo
+                  </span>
+                </Link>
+              )}
             </div>
             <p className="text-base font-medium text-zinc-700 dark:text-zinc-400 leading-[20px] mt-6">
               {data.description}

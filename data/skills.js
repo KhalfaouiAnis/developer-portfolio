@@ -18,7 +18,7 @@ const data = [
   { id: 17, name: "MUI", image: "/skills/mui.png" },
   { id: 18, name: "MySQL", image: "/skills/mysql.png" },
   { id: 19, name: "next", image: "/skills/next-js.png" },
-  { id: 20, name: "node", image: "/skills/node-js.png" },
+  { id: 20, name: "node", image: "/skills/node.png" },
   { id: 21, name: "postgres", image: "/skills/postgresql.png" },
   { id: 22, name: "react", image: "/skills/react.png" },
   { id: 23, name: "react native", image: "/skills/react-native.png" },

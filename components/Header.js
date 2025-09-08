@@ -21,10 +21,10 @@ export default function Header() {
         />
       </section>
       <section className="flex-1">
-        <h1 className="text-4xl md:text-5xl font-black capitalize text-violet-700 dark:text-white">
+        <h1 className="text-4xl md:text-5xl font-black capitalize text-violet-700 text-center md:text-left dark:text-white">
           {name}
         </h1>
-        <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
+        <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize text-center md:text-left dark:text-zinc-400">
           {jobTitle}
         </h3>
         <div className="flex flex-wrap gap-y-1 mt-2 items-center gap-x-4">
