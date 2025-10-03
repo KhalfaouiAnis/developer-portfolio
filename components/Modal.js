@@ -33,7 +33,7 @@ export default function Modal({ open, data, toggle }) {
             <h2 className="text-xl md:text-2xl text-zinc-700 dark:text-zinc-400 font-bold">
               {data.title}
             </h2>
-            <div className="flex flex-wrap items-center gap-3 mt-4">
+            <div className="flex flex-wrap items-center gap-3 mt-4 border-b-[1px] border-b-zinc-100 dark: border-zinc-300">
               {data.skills.map((skill) => (
                 <Skill key={skill.id} {...skill} />
               ))}

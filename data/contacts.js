@@ -23,24 +23,24 @@ const data = [
     label: "facebook",
     link: "https://www.facebook.com/Kalfaoui.Anis/",
   },
-  {
-    id: 2,
-    name: "twitter",
-    label: "twitter",
-    link: "http://twitter.com",
-  },
-  {
-    id: 5,
-    name: "instagram",
-    label: "instagram",
-    link: "http://instagram.com",
-  },
-  {
-    id: 8,
-    name: "medium",
-    label: "medium",
-    link: "https://medium.com/",
-  },
+  // {
+  //   id: 2,
+  //   name: "twitter",
+  //   label: "twitter",
+  //   link: "http://twitter.com",
+  // },
+  // {
+  //   id: 5,
+  //   name: "instagram",
+  //   label: "instagram",
+  //   link: "http://instagram.com",
+  // },
+  // {
+  //   id: 8,
+  //   name: "medium",
+  //   label: "medium",
+  //   link: "https://medium.com/",
+  // },
   {
     id: 10,
     name: "cv",

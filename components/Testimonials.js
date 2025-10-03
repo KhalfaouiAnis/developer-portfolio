@@ -9,7 +9,7 @@ import data from "@/data/reviews";
 import { FaArrowCircleDown } from "react-icons/fa";
 
 export default function Testimonials() {
-  const [count, setCount] = useState(4);
+  const [count, setCount] = useState(2);
 
   return (
     <SectionWrapper>
@@ -17,7 +17,7 @@ export default function Testimonials() {
       <h1 className="text-xl md:text-3xl font-black capitalize mt-5">
         What{" "}
         <strong className="text-violet-600 dark:text-zinc-400">
-          client's/collegues
+          clients/collegues
         </strong>{" "}
         say
       </h1>
@@ -25,7 +25,7 @@ export default function Testimonials() {
         I engineered and developed applications that solve real word problems and make other people's life easier.
       </p>
       <div className="relative w-full">
-        {data.length !== count && (
+        {data.length > count && (
           <div className="absolute bottom-2 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90  to-transparent flex justify-center items-end z-20">
             <button
               onClick={() => setCount(count + 2)}
@@ -36,8 +36,8 @@ export default function Testimonials() {
           </div>
         )}
         <Masonry
-          className="my-masonry-grid"
-          columnClassName="my-masonry-grid_column"
+          className="masonry-grid"
+          columnClassName="masonry-grid_column"
           breakpointCols={{
             default: 2,
             1200: 2,
