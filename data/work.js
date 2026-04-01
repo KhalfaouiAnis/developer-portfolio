@@ -25,7 +25,7 @@ const data = [
     role: "Fullstack React | Java/Spring developer",
     company: "Plug&Tel",
     type: "on site",
-    date: "09/2022 - 12/2024",
+    date: "09/2022 - 12/2023",
     skills: [
       { id: 1, name: "Java", image: "/skills/java.png" },
       { id: 2, name: "spring boot", image: "/skills/boot.png" },
@@ -55,4 +55,5 @@ const data = [
     ],
   },
 ];
+
 export default data;

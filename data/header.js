@@ -21,7 +21,7 @@ const data = {
       ),
     },
     frensh: {
-      label: "Frensh: Fluent",
+      label: "French: Fluent",
       icon: <Image src="/flags/france.png" alt="lang" height={15} width={15} className="scale-up" />,
     },
   },

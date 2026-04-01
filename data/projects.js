@@ -4,7 +4,7 @@ const data = [
     title: "Wheel men, Car auctions app built in .Net@9 core and Next.js@15",
     image: "/projects/car-bids.png",
     description:
-      "This project is a car auctions plateform where you can list your car for selling, bid for a car that meets your requirements, and be notified when the auction is end for that particular car and see if you're the luckiest. Since the app is big and features rich, I've used a microservices design to create it.",
+      "This project is a car auctions platform where you can list your car for selling, bid for a car that meets your requirements, and be notified when the auction is end for that particular car and see if you're the luckiest. Since the app is big and features rich, I've used a microservices design to create it.",
     skills: [
       { id: 5, name: ".NET", image: "/skills/dotnetcore.webp" },
       { id: 1, name: "react", image: "/skills/react.png" },
