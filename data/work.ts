@@ -1,0 +1,80 @@
+import type { WorkExperience } from "@/types";
+
+const data: WorkExperience[] = [
+  {
+    id: 1,
+    image: "/work/punitech.png",
+    company: "Punitech GmbH",
+    companyUrl: "https://punitech.de",
+    role: "Software Engineer",
+    type: "remote",
+    date: "Feb 2024 – Present",
+    current: true,
+    achievements: [
+      "Architected and delivered microservices features reducing backend response times by ~25%",
+      "Led migration of legacy modules to Spring Boot 3, improving maintainability and CI pipeline speed",
+      "Built React/Next.js dashboards consumed by 500+ daily active users across EU markets",
+    ],
+    skills: [
+      { id: 1, name: "Java", image: "/skills/java.png" },
+      { id: 2, name: "Spring Boot", image: "/skills/boot.png" },
+      { id: 3, name: "PostgreSQL", image: "/skills/postgresql.png" },
+      { id: 4, name: "React", image: "/skills/react.png" },
+      { id: 5, name: "Next.js", image: "/skills/next-js.png" },
+      { id: 6, name: "Docker", image: "/skills/docker.png" },
+      { id: 7, name: "Kubernetes", image: "/skills/kubernetes.webp" },
+      { id: 8, name: "Material UI", image: "/skills/mui.png" },
+      { id: 9, name: "Git", image: "/skills/git.png" },
+      { id: 10, name: "Jenkins", image: "/skills/jenkins.png" },
+    ],
+  },
+  {
+    id: 2,
+    image: "/work/plugandtel.png",
+    company: "Plug&Tel",
+    role: "Fullstack Developer — React & Java/Spring",
+    type: "on site",
+    date: "Sep 2022 – Dec 2023",
+    current: false,
+    achievements: [
+      "Delivered 8 production features across a telecom billing platform used by 10,000+ subscribers",
+      "Redesigned frontend with React + Tailwind CSS, cutting page load time by 40%",
+      "Containerised the full stack using Docker & Kubernetes, eliminating environment parity issues",
+    ],
+    skills: [
+      { id: 1, name: "Java", image: "/skills/java.png" },
+      { id: 2, name: "Spring Boot", image: "/skills/boot.png" },
+      { id: 3, name: "MySQL", image: "/skills/mysql.png" },
+      { id: 4, name: "React", image: "/skills/react.png" },
+      { id: 5, name: "Tailwind CSS", image: "/skills/tailwind.png" },
+      { id: 6, name: "Docker", image: "/skills/docker.png" },
+      { id: 7, name: "Kubernetes", image: "/skills/kubernetes.webp" },
+      { id: 8, name: "Git", image: "/skills/git.png" },
+    ],
+  },
+  {
+    id: 3,
+    image: "/work/sopra.png",
+    company: "Sopra HR Software",
+    role: "React & Java Developer",
+    type: "on site",
+    date: "Jul 2019 – Sep 2022",
+    current: false,
+    achievements: [
+      "Contributed to an enterprise HR platform shipped to clients across France, Spain, and the UK",
+      "Built reusable React component library adopted across 3 product teams, reducing UI dev time by 30%",
+      "Maintained Java/Spring REST APIs handling payroll calculations for 50,000+ employee records",
+    ],
+    skills: [
+      { id: 1, name: "React", image: "/skills/react.png" },
+      { id: 2, name: "HTML 5", image: "/skills/html-5.png" },
+      { id: 3, name: "CSS 3", image: "/skills/css3.png" },
+      { id: 4, name: "Java", image: "/skills/java.png" },
+      { id: 5, name: "Spring Boot", image: "/skills/boot.png" },
+      { id: 6, name: "MySQL", image: "/skills/mysql.png" },
+      { id: 7, name: "Git", image: "/skills/git.png" },
+    ],
+  },
+];
+
+export default data;
