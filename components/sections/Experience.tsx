@@ -27,7 +27,7 @@ export default function Experience() {
           {data.map((job, index) => (
             <div key={job.id} className="relative flex gap-6 sm:gap-8 timeline-item">
               {/* Dot + logo */}
-              <div className="relative z-10 flex-shrink-0">
+              <div className="relative z-10 shrink-0">
                 <div
                   className={`timeline-dot relative w-10 h-10 rounded-full overflow-hidden border-2 ${
                     job.current
