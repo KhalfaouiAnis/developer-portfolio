@@ -11,7 +11,7 @@ const data: Contact[] = [
     id: 2,
     name: "linkedin",
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/anis-khalfaoui-a70022171",
+    link: "https://www.linkedin.com/in/khalfaoui-anis",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const data: Contact[] = [
     id: 4,
     name: "facebook",
     label: "Facebook",
-    link: "https://www.facebook.com/Kalfaoui.Anis/",
+    link: "https://www.facebook.com/Kalfaoui.Anis",
   },
   {
     id: 5,
