@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Anis Khalfaoui | Software Craftsman",
@@ -35,6 +37,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
