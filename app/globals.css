@@ -72,23 +72,41 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 
-  button {
+  button:hover {
     cursor: pointer;
   }
 }
 
 /* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { @apply bg-border rounded-full; }
-::-webkit-scrollbar-thumb:hover { @apply bg-muted-foreground; }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
 
 /* Skill chip hover */
 .skill-chip {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 .skill-chip:hover {
   transform: translateY(-2px);
@@ -103,5 +121,9 @@
   transform: translateX(-50%);
   width: 1px;
   height: calc(100% + 1.5rem);
-  background: linear-gradient(to bottom, oklch(0.65 0.18 293 / 0.4), transparent);
+  background: linear-gradient(
+    to bottom,
+    oklch(0.65 0.18 293 / 0.4),
+    transparent
+  );
 }

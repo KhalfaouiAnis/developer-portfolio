@@ -23,11 +23,11 @@ export default function SkillBadge({ name, image, size = "md" }: SkillBadgeProps
         )}
       >
         <Image
-          src={image}
           fill
           alt={name}
-          className="object-contain"
+          src={image}
           sizes="20px"
+          className="object-contain"
         />
       </div>
       <span className="text-foreground">{name}</span>

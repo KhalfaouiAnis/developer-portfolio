@@ -24,7 +24,7 @@ export default function Experience() {
         <div className="absolute left-5 top-0 bottom-0 w-px bg-border hidden sm:block" />
 
         <div className="space-y-12">
-          {data.map((job, index) => (
+          {data.map((job) => (
             <div key={job.id} className="relative flex gap-6 sm:gap-8 timeline-item">
               {/* Dot + logo */}
               <div className="relative z-10 shrink-0">
@@ -39,7 +39,7 @@ export default function Experience() {
                     src={job.image}
                     fill
                     alt={`${job.company} logo`}
-                    className="object-contain p-1"
+                    className="object-contain p-0.5 rounded-full"
                   />
                 </div>
               </div>

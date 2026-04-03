@@ -17,7 +17,7 @@ export interface Project {
   shortTitle: string;
   image: string;
   description: string;
-  category: ("fullstack" | "frontend" | "backend")[];
+  category: ("fullstack" | "frontend" | "backend" | "mobile")[];
   skills: SkillItem[];
   source_code?: string;
   demo?: string;
