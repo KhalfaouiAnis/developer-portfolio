@@ -2,6 +2,25 @@ import type { Project } from "@/types";
 
 const data: Project[] = [
   {
+    id: 6,
+    title:
+      "Solar TN — Customer inventory website for Solar system products and services management.",
+    shortTitle: "Solar TN",
+    image: "/projects/solar_system.png",
+    description:
+      "Inventory website for a Tunisian local company in the solar system field. Showcase their products and services and also allowing them to sell on the internet.",
+    category: ["frontend", "fullstack"],
+    skills: [
+      { id: 1, name: "React", image: "/skills/react.png" },
+      { id: 2, name: "Next.js", image: "/skills/next-js.png" },
+      { id: 3, name: "Node.js", image: "/skills/node.png" },
+      { id: 4, name: "TypeScript", image: "/skills/typescript.png" },
+      { id: 5, name: "Tailwind CSS", image: "/skills/tailwind.png" },
+      { id: 6, name: "PostgreSQL", image: "/skills/postgresql.png" },
+    ],
+    source_code: "https://github.com/KhalfaouiAnis/cars-bid",
+  },
+  {
     id: 1,
     title: "Cars bids — Car auctions app built with .Net 9 & Next.js 15",
     shortTitle: "Cars bids",
